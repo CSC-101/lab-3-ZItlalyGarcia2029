@@ -9,7 +9,7 @@ class Lab3TestCases(unittest.TestCase):
 
     def test_double_two(self):
         result = functions.double(3)
-        expected = 6
+        expected = 9 #change 6 to 9
         self.assertEqual(expected, result)
 
 
